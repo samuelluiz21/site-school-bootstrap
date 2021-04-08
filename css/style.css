@@ -1,0 +1,35 @@
+:root {
+    --main-bg-color: #00736C;
+    --main-font-color: white;
+}
+
+body {
+    /* background-color: #AFC2BE; */
+}
+
+a {
+    color: var(--main-font-color);
+}
+
+.container {
+    background-color: #FFF;
+}
+
+img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.banner {
+    background: url(../img/banner.jpg) no-repeat fixed;
+    /* height: 220px; */
+}
+
+.text-color {
+    color: #00736C;
+}
+
+.default-colors {
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+}
