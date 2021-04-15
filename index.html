@@ -13,12 +13,16 @@
 
   <body>
     <header class="default-theme">
-      <div class="brand">
+      <div class="brand text-center">
         <a>🏫 Technological School 📚</a>
       </div>
-      <label hidden id="icon" for="check"><i class="fas fa-bars"></i></label>
+      <div class="main-icon">
+        <label hidden id="icon" for="check">
+          <i class="fas fa-bars"></i>
+        </label>
+      </div>
       <input hidden id="check" type="checkbox" checked="true" />
-      <nav id="options">
+      <nav class="text-center">
         <a href="#html"> Curso HTML</a>
         <a href="#css"> Curso CSS</a>
         <a href="#design"> Curso Design</a>
@@ -27,13 +31,8 @@
     </header>
 
     <main>
-      <div class="courses-header text-center">
-        <img
-              src="/img/banner.svg"
-              alt="codigos html"
-          /></a>
-      </div>
-
+      <img src="/img/banner.svg" alt="codigos html"/></a>
+      
       <div class="courses">
         <article class="course text-center">
           <a id="html" href="pages/html.html"

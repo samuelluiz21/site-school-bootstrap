@@ -1,29 +1,22 @@
 header {
-  display: flex;
-  justify-content: space-between;
-  padding: 15 15;
+  padding: 50 50;
   margin-bottom: 6;
   font-size: 20px;
+}
+
+.brand {
+  padding-bottom: 20px;
+}
+
+.main-icon {
+  text-align: right;
 }
 
 nav a {
   margin-right: 35;
 }
 
-/*FLEXBOX CSS */
-
-.banner {
-  padding: 15 0;
-  background: url(https://cdn.glitch.com/4fac4966-dba9-488b-b92b-1252f0533da5%2Fbanner.jpg?v=1615506420075);
-
-  color: var(--main-font-color);
-}
-
 /*COURSES*/
-.courses-header {
-  color: var(--main-bg-color);
-}
-
 .courses {
   display: flex;
 }
@@ -45,7 +38,7 @@ nav a {
 
 /*FOOTER*/
 footer {
-  padding: 15 0;
+  padding: 70 70;
   margin-top: 10px;
 }
 
@@ -63,22 +56,15 @@ footer {
     text-align: center;
     margin-top: 17;
   }
-  nav a {
-    padding-bottom: 10;
-  }
   #icon {
     display: initial;
-    position: absolute;
-    align-self: flex-end;
   }
   #check:checked ~ nav {
     display: none;
   }
-
   .courses {
     flex-wrap: wrap;
   }
-
   .course {
     max-width: 49%;
   }
