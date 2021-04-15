@@ -10,7 +10,6 @@ nav a {
   margin-right: 35;
 }
 
-
 /*FLEXBOX CSS */
 
 .banner {
@@ -29,8 +28,8 @@ nav a {
   display: flex;
 }
 .course {
-  max-width: 33%;
-  padding: 0 3 8 0;
+  max-width: 20%;
+  padding: 0 10 8 10;
 }
 
 .course img {
@@ -55,9 +54,7 @@ footer {
   margin-right: 15px;
 }
 
-/* comentário */
-
-@media (max-width: 860px) {
+@media (max-width: 900px) {
   header {
     flex-direction: column;
   }
